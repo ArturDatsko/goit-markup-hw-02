@@ -25,24 +25,31 @@ a {
 ul {
   list-style-type: none;
 }
+.list {
+  list-style-type: none;
+}
 /* ________  header  ______*/
 .link:is(:hover, :focus) {
   color: #404bbf;
 }
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
 .header-span {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 .header-menu-link {
