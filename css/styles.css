@@ -220,14 +220,14 @@ ul {
 }
 
 .portfolio-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--color-iris);
+  background: var(--color-cloud);
 }
 .portfolio-img-list {
 }
