@@ -209,14 +209,14 @@ ul {
 .portfolio-btn-item {
 }
 .portfolio-btn-all {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #404bbf;
+  color: var(--color-white);
+  background: var(--color-ocean);
 }
 
 .portfolio-btn {
