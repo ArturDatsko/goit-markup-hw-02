@@ -91,11 +91,12 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
+  color: var(--color-white);
+  background: var(--color-iris);
 }
 .button-active:is(:hover, :focus) {
-  background: #404bbf;
+  background: var(--color-ocean);
+  color: var(--color-white);
 }
 .button-active {
   cursor: pointer;
